@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>popular</title>
+        <meta http-equiv="refresh" content="10">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+        <script src="bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+        <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+    #containerpopular{
+      width: 90%;
+      height: 90vh;
+      justify-content: center;
+      margin-top: 80px;
+    }
+    #popular{
+    width: 80%;
+    height: 500px;
+    background-image: url(imagesprojet/popular1.jpg);
+    animation-name: slide;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    justify-content: center;
+}
+@keyframes slide {
+    0%{
+        background-image: url(imagesprojet/popular1.jpg); background-size: 100% 100%;
+    }
+    10%{
+        background-image: url(imagesprojet/popular1.jpg); background-size: 100% 100%;
+    }
+    
+    20%{
+        background-image: url(imagesprojet/popular3.jpg); background-size: 100% 100%;
+    }
+    
+    40%{
+        background-image: url(imagesprojet/popular4.jpg); background-size: 100% 100%;
+    }
+    
+    60%{
+        background-image: url(imagesprojet/popular5.jpg); background-size: 100% 100%;
+    }
+    
+    80%{
+        background-image: url(imagesprojet/popular6.jpg); background-size: 100% 100%;
+    }
+    100%{
+        background-image: url(imagesprojet/popular7.jpg); background-size: 100% 100%;
+    }
+}
+      h4:hover>div{
+        font-size: larger;
+      }
+        </style> 
+    </head> 
+<body>
+    <h2 style="font-family:'Times New Roman', Times, serif ; text-align: center; color: goldenrod; " ><u> Most Popular Now</u><h2>
+    <BR>
+        <DIV class="row ">
+            <div class="row  justify-content-sm-center">
+            <img class="col-6 col-md-4 col-lg-3 my-3 " style=" border: 7px solid goldenrod; margin-left: 170px;" src="imagesprojet/books.jpg">
+                    <h4 class="col-4 col-md-2 col-lg-4 mt-3 " style="font-family:'Times New Roman', Times, serif;color: black ;font-weight: bolder; margin-left: 200px; font-size: 35px;"> Select by Categories :<br>
+             <div>  <a style="font-size:smaller; text-decoration: none; color: goldenrod; box-shadow: 8PX 8PX 8PX goldenrod;" href="humand.html"> |Human developpement</a><br>
+                    <a style="font-size: smaller; text-decoration: none; color: goldenrod;box-shadow: 8PX 8PX 8PX goldenrod;" href="fiction.html"> |Fiction</a><br>
+                    <a style="font-size: smallER; text-decoration: none; color: goldenrod;box-shadow: 8PX 8PX 8PX goldenrod;" href="Biography.html"> |Biography</a><br>
+                    <a style="font-size: smaller; text-decoration: none; color: goldenrod;box-shadow: 8PX 8PX 8PX goldenrod;" href="romance.html"> |Romance</a><br>
+                    <a style="font-size: smaller; text-decoration: none; color: goldenrod;box-shadow: 8PX 8PX 8PX goldenrod;" href="history.html"> |history</a><br>
+                    <a style="font-size: smaller; text-decoration: none; color: goldenrod;box-shadow: 8PX 8PX 8PX goldenrod;" href="adventure.html"> |Adventure</a><br>    
+             </div></h4></DIV>
+<br><br><br><br><br><br><br><br><br><br>
+   <br>
+<div id="containerpopular" class="row  mx-5 justify-content-center align-self-center" >
+     <div id="popular" class="col-12 col-md-10 col-lg-8 ms-3"></div>
+</div>
+</body>                       
+    </html>

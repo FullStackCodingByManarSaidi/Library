@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>services</title>
+        <meta http-equiv="refresh" content="10">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+        <script src="bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+        <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+             #container{
+                height: 540PX;
+                width: 30%;
+                border: 5PX solid goldenrod;
+                justify-content: center;}
+            #reminder{
+                height: 520px;
+                width: 29.15%;
+                background-color:rgb(2, 124, 124);
+                margin-left: -10PX;
+                margin-TOP: 4PX;
+                position: absolute;
+                overflow: hidden
+            }
+            #reminderimg{
+                height: 520px;
+                width: 100%; 
+                background-image: url(imagesprojet/reminder.jpg);
+                background-size: 100%;
+                position: absolute;
+                top: 600PX;
+                transition-property: top;
+                transition-duration: 3s;
+            }
+            #reminder:hover>#reminderimg{
+             top: 0px;
+            }
+            img:hover{
+                border: 15PX double goldenrod ;
+            }
+            @media screen and (max-width:700PX) {
+                #container{
+                    height: 250px;
+                    width: 41%;
+                }
+                #reminder{
+                    height: 233px;
+                    width: 40%;
+                }
+                #rem{
+                    height: 190px;
+                    background-repeat: no-repeat;
+                } 
+            }
+        </style>
+    </head>
+ <BODY>
+    <br><br><br>
+        <div class="row justify-content-center mx-5">
+            <img class="col-3 col-md-2 col-lg-2  " src="imagesprojet/premium.jpg">
+             <h2 class="col-5 col-md-6 col-lg-6  mt-5 " style="font-family: 'Times New Roman', Times, serif; color:goldenrod; text-align: center;">
+                 Premium | Services</h2>
+             <img class="col-4 col-md-2 col-lg-2" src="imagesprojet/premium.jpg">
+         </div>
+         <div class="row justify-content-center my-5">
+           <img class="col-10 col-md-3 col-lg-2 mx-1 my-2" src="imagesprojet/pcard.jpg" >
+             <div class="col-10 col-md-7 col-lg-8 mx-1 my-2" >
+                 <h4 style="font-family: 'Times New Roman', Times, serif;color: goldenrod;">Get the premium Card</h4>
+                 <P> In order to benefit from our premium services you must get the Premium card of the library instead of the usual one ask the library staff for more informations. </P></div>
+         <img class="col-10 col-md-3 col-lg-2 mx-1 my-2" src="imagesprojet/wifi.jpg" >
+            <div class="col-10 col-md-7 col-lg-8 mx-1 my-2" >
+                 <h4 style="font-family: 'Times New Roman', Times, serif;color: goldenrod;">Wifi Access</h4>
+                  <P>To our premium clients we offer you a special service in case you wanted to bring your laptop to the library , you are allowed to use the library private wifi network on your devices, wether for your projects , homeworks or researches</P></div>
+         <img class="col-10 col-md-3 col-lg-2 mx-1 my-2" src="imagesprojet/computer.jpg" >
+             <div class="col-10 col-md-7 col-lg-8 mx-1 my-2" >
+                  <h4 style="font-family: 'Times New Roman', Times, serif;color: goldenrod;"> Research Request</h4>
+                  <P>Our assistants will make sure you got all the informations needed for you research by verfying all the necessary points required in your reaserch  </P></div>
+<br><br>
+<div id="container" class="rem">
+    <div id="reminder" style="text-align: center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">.Gentel Reminder.
+        <div id="reminderimg" >
+        </div>
+    </div>
+</div>
+<br>
+<footer style="background-color: white;color: goldenrod;width: 100%;text-align: center;font-weight: bolder;">copyright&copy;2023</footer>
+</BODY>
+</html>

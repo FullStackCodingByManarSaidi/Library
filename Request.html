@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Request</title>
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="projet.css">
+   <style>
+    body{
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/request4.jpg);
+        background-size: 100% 100%;
+        
+    }
+    
+   </style>
+</head>
+<body>
+    <header>
+        <img src="images/request1.jpg" style="height: 25VH;width: 50%;position: absolute;right: 25%;left: 25%;">
+    </header>
+    <div class="row" >
+    <fieldset class="w-50" style=" font-family: Georgia, 'Times New Roman', Times, serif; color: goldenrod; position: absolute; left: 25%;top: 27vh;text-align: center;"> fill the form to request the book you want
+        <form action="" method="get" id="form">
+                <div class="input-box my-2">
+                   <input type="text" placeholder="card ID"   class="form-control "required > 
+                </div>
+                <div class="input-box my-2">
+                    <input type="text" placeholder="book name" class="form-control" required>
+                 </div>
+                 <div class="input-box my-2">
+                    <input type="email" placeholder="email" class="form-control" required >
+                 </div>
+                 <div class="input-box my-2" style="text-align: left;color:rgb(133, 58, 8)">
+                    <label for="rec" class="ms-2">Receive in:</label>
+                    <input type="date" placeholder="09/12/2023" id="rec" class="form-control" required >
+                 </div>
+                 <div class="input-box my-2" style="text-align: left;color:rgb(133, 58, 8)">
+                    <label for="ret" class="ms-2">Return in:</label>
+                    <input type="date" placeholder="18/12/2023" id="ret" class="form-control" required >
+                 </div>
+                    <button class="btn btn-outline-success border border-success border-3 mt-2" type="submit" ><span class="btn_text">Send</span>
+                    </button>
+                 </div>
+        </form>
+    </fieldset>
+</div>
+</body>
+</html>

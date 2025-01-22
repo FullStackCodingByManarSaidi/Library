@@ -1,0 +1,100 @@
+#parent{
+    overflow: hidden;
+}
+#parent #section{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 9s slider infinite;
+}
+#parent #section img{
+    width: 20%;
+    height: 100vh;
+    float: left;
+}
+
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    30%{
+        left: -100%;
+    }
+    40%{
+        left: -100%;
+    }
+    60%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    90%{
+        left: -300%; 
+    }
+    100%{
+        left: -300%;
+    }
+    
+}
+#a1{
+    position: absolute;
+    padding-left: 200px;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 10vw;
+    margin-top:-560px;
+    background-image: url(images/image1.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: white; 
+    position: fixed;
+}
+#di1{
+    margin-left: 200px;
+}
+#inp1{
+    margin-left: 180px;
+    margin-top: 310px;
+    padding: 10px;
+    font-size: 55px;
+    background-image: url(images/image4.jpg);;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 2px solid;
+}
+@media screen and (max-width:700PX) {
+    
+    #div-fotter{
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+    }
+    #fa{
+        font-size: 30px;
+    }
+    #int{
+        font-size: 30px;
+    }
+    #twit{
+        font-size: 30px;
+    }
+    #at{
+        font-size: 30px;
+    }
+ }
+#div-fotter{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 80px;
+}
+
